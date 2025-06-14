@@ -37,10 +37,10 @@ public class ExpenseManagerSystemTest {
 		
 		
 		//Buggy Code
-		String expectedTitle = "Hello Page";
+		//String expectedTitle = "Hello Page";
 		
 		//Correct Code
-		//String expectedTitle = "Login page";
+		String expectedTitle = "Login page";
 		
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(expectedTitle, actualTitle);
@@ -65,7 +65,7 @@ public class ExpenseManagerSystemTest {
         	System.out.println("Issue is created in Jira with Issue Key: "+issueName.getKey());
         }
 		*/
-		
+
 
 	}
 	
